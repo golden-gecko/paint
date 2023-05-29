@@ -466,14 +466,14 @@
             // 
             // saveFileDialog1
             // 
-            this.saveFileDialog1.DefaultExt = "bmp";
-            this.saveFileDialog1.Filter = "BMP|*.bmp";
+            this.saveFileDialog1.DefaultExt = "png";
+            this.saveFileDialog1.Filter = "PNG|*.png";
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.DefaultExt = "bmp";
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "BMP|*.bmp";
+            this.openFileDialog1.Filter = "PNG|*.png";
             // 
             // canvas
             // 

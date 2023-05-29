@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Net.NetworkInformation;
 using System.Windows.Forms;
 
 namespace Paint
@@ -55,7 +56,7 @@ namespace Paint
         {
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                canvas.SaveToFile(saveFileDialog1.FileName, ImageFormat.Bmp);
+                canvas.SaveToFile(saveFileDialog1.FileName, ImageFormat.Png);
             }
         }
 
@@ -134,7 +135,7 @@ namespace Paint
             }
             else
             {
-                canvas.SaveToFile(saveFileDialog1.FileName, ImageFormat.Bmp);
+                canvas.SaveToFile(saveFileDialog1.FileName, ImageFormat.Png);
             }
         }
 
